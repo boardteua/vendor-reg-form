@@ -4,7 +4,7 @@
   Plugin Name: Vendor Registration Form
   Description: Custom registration form
   Version: 1.1
-  Author: org100h eMagicone
+  Author: org100h
 */
 
 // If this file is called directly, abort.
@@ -12,7 +12,6 @@ if (!defined('WPINC')) {
     die;
 }
 
-define("HTML_EMAIL_HEADERS", array('Content-Type: text/html; charset=UTF-8'));
 
 class emailConfirmation
 {
